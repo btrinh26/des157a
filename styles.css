@@ -1,0 +1,17 @@
+/* div {
+    background-color: rgb(169, 232, 255);
+    text-align: center;
+}
+
+h1, h2 {
+    color: white;
+} */
+
+.banner {
+    height: 250px;
+    width: 1100px;
+}
+
+section ul li {
+    list-style-type: none;
+}
