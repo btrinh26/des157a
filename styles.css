@@ -12,6 +12,6 @@ h1, h2 {
     width: 1100px;
 }
 
-section ul li {
+section ul li a {
     list-style-type: none;
 }
