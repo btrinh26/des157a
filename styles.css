@@ -14,24 +14,6 @@ header {
     padding: 1em 0;
 }
 
-@keyframes hoverY {
-    0% {
-        transform: translateY(7px);
-    }
-    23% {
-        transform: translateY(-7px);
-    }
-    45% {
-        transform: translateY(7px);
-    }
-    79% {
-        transform: translateY(-7px);
-    }
-    100% {
-        transform: translateY(7px);
-    }
-}
-
 @keyframes slide {
     0% {
         opacity: 0%;
@@ -69,14 +51,13 @@ main {
     justify-content: center;
     gap: 2em;
     align-items: flex-start;
-    flex-wrap: wrap;
     padding: 2em;
 }
 
 main section {
     background: #fff;
     border-radius: 0.5em; 
-    box-shadow: 0 0.25em 0.375em rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 0.25em 0.35em rgba(0, 0, 0, 0.1); 
     padding: 1.5em;
     width: 20%; 
     height: 23em;
@@ -134,3 +115,4 @@ footer a {
 footer a:hover {
     color: #246027;
 }
+
