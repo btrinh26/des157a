@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 2</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+            <h1>Javascript Experiment 2</h1>            
+            <!-- <div id="box1"> -->
+                <p>Reload to run code again</p>  
+            <!-- </div> -->
+    </main>
+
+    <script>
+        function randomInt(min,max) {
+            return Math.floor((max-min) * Math.random()) +min;
+        }   
+
+        var randColor = ["blue", "red", "yellow", "green", "purple", "orange"];
+        var pickedColor = randColor[randomInt(0, randColor.length)];
+        
+        console.log(pickedColor);
+
+        var colorPrompt = prompt("what color am I thinking of", "");    
+
+        var pSelect = document.querySelector("p");
+        
+        if (pickedColor == colorPrompt) {
+            pSelect.innerHTML = '<p>Correct color! Reload to run code again</p>'
+            pSelect.className = pickedColor
+        } else {
+			pSelect.innerHTML = '<p>Wrong color! Reload to run code again</p>'
+		}
+    </script>
+</body>
+</html>

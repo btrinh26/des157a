@@ -1,0 +1,100 @@
+main{
+    margin: 0;
+    padding: 2em;
+}
+
+p{
+    font-size: 3vh;
+    text-align: center;
+    font-weight: 200;
+}
+
+@keyframes pulseRed {
+    0%{
+        color:black
+    }
+    50%{
+        color:red
+    }
+    100%{
+        color:black
+    }
+}
+.red {
+    animation: pulseRed 2s infinite ease-in-out; 
+}
+
+@keyframes pulseBlue {
+    0%{
+        color:black
+    }
+    50%{
+        color:blue
+    }
+    100%{
+        color:black
+    }
+}
+.blue {
+    animation: pulseBlue 2s infinite ease-in-out; 
+}
+
+@keyframes pulseYellow {
+    0%{
+        color:black
+    }
+    50%{
+        color:yellow
+    }
+    100%{
+        color:black
+    }
+}
+.yellow {
+    animation: pulseYellow 2s infinite ease-in-out; 
+}
+
+@keyframes pulseGreen {
+    0%{
+        color:black
+    }
+    50%{
+        color:green
+    }
+    100%{
+        color:black
+    }
+}
+.green {
+    animation: pulseGreen 2s infinite ease-in-out; 
+}
+
+@keyframes pulseOrange {
+    0%{
+        color:black
+    }
+    50%{
+        color:orange
+    }
+    100%{
+        color:black
+    }
+}
+.orange {
+    animation: pulseOrange 2s infinite ease-in-out; 
+}
+
+@keyframes pulsePurple {
+    0%{
+        color:black
+    }
+    50%{
+        color:purple
+    }
+    100%{
+        color:black
+    }
+}
+.purple {
+    animation: pulsePurple 2s infinite ease-in-out; 
+}
