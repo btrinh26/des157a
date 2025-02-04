@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madlib</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">  
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>    
+</head>
+
+<body>
+    <h1>Madlib</h1>
+
+    <div id="coverborder">
+        <div id="page1">
+            <div id="page1form"> 
+                <!-- form goes here -->
+                <form action="processor.php" method="POST">
+                    <div id="formflex1">
+                        <label for="noun1">Noun </label>
+                        <input type="text" name="noun1" id="noun1" placeholder="car" required>
+
+                        <label for="adjective1">Adjective </label>
+                        <input type="text" name="adjective1" id="adjective1" placeholder="big" required>
+
+                        <label for="food">Food </label>
+                        <input type="text" name="food" id="food" placeholder="apple" required>
+
+                        <label for="verb1">Verb ending in -ing </label>
+                        <input type="text" name="verb1" id="verb1" placeholder="running" required>
+
+                        <label for="emotion">Emotion </label>
+                        <input type="text" name="emotion" id="emotion" placeholder="happy" required>
+
+                        <label for="classsubject">Class Subject </label>
+                        <input type="text" name="classsubject" id="classsubject" placeholder="Math" required>
+
+                        <label for="verb2">Verb (past tense) </label>
+                        <input type="text" name="verb2" id="verb2" placeholder="swam" required>
+
+                        <label for="noun2">Noun </label>
+                        <input type="text" name="noun2" id="noun2" placeholder="cow" required>
+
+                        <label for="adjective2">Adjective </label>
+                        <input type="text" name="adjective2" id="adjective2" placeholder="round" required>
+                    </div>
+
+                    <div id="formflex2">
+                        <label for="noun3">Noun </label>
+                        <input type="text" name="noun3" id="noun3" placeholder="clock" required>
+
+                        <label for="Adverb">Adverb </label>
+                        <input type="text" name="Adverb" id="Adverb" placeholder="quickly" required>
+
+                        <label for="verb3">Verb (past tense) </label>
+                        <input type="text" name="verb3" id="verb3" placeholder="punched" required>
+
+                        <input type="submit" name="submit" id="send-form" value="Submit">
+                    </div>
+                </form>
+            </div>
+
+            <div id="page1instruction">
+                <!-- fill out prompts to the left-->
+                <p>fill out prompts on the left</p>
+                <div class="ribbon"></div>
+            </div>
+        </div>
+
+        <div id="page2">
+            <div id="page2story">
+                <p>This morning, I got out of bed and immediately stubbed my toe on a (1) _____ [noun]. What a (2) _____ [adjective] way to start the day. After that, I got dressed and grabbed some (3) _____  [food] for breakfast.<br><br>
+                    
+                    Making my way to campus, I made it to class where my professor announced there would be a (4) _____  [adjective] quiz today. I panicked because I had been (5) _____  [verb ending in -ing] instead of studying last night. By the time it was over, I felt (6) _____  [emotion] but happy to survive.<br><br>
+                    
+                    After getting lunch, I realized I was running late for my (7) _____ [class subject] lecture. I (8) _____  [verb (past tense)] as fast as I could, almost crashing into a (9) _____  [noun]. <br><br>
+                    Finishing that lecture, I thought I could relax, but instead, something (10) _____ [adjective] happened. As I turned the corner to my apartment, I saw a (11) _____ [noun] standing in front of my door. I (12) _____ [adverb] walked past it and (13) _____ [verb (past tense)] for the rest of the day.
+                    </p>
+            </div>
+
+            <div id="page2instruction">
+                <!-- here is your madlib -->
+                <p>Journal entry to the left</p>
+                <div class="ribbon"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

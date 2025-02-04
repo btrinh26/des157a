@@ -1,0 +1,132 @@
+input, label {
+    display:block;
+}
+
+body {
+    background-image: url(images/background1.jpg);
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    backdrop-filter: blur(8px); /*will gaus blur and format the image itself in later v*/
+}
+
+/* purple cover */
+#coverborder {
+    height: 80vh;
+    width: 60vw;
+    border-radius: 2em;
+    background-color:rgb(62, 49, 73);
+    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 5%, transparent 95%);
+    margin: auto;
+    box-shadow: -20px -45px 25px rgba(5, 0, 5, 0.35),  
+                inset 5px 5px 5px rgba(255, 255, 255, 0.2); 
+    font-family: "Lora", serif;
+}
+
+/* Styling for the pages (page 1) */
+#page1{
+    display:flex;
+}
+
+form {
+    display: flex;
+    gap: 1em;
+}
+
+label {
+    font-weight: 700;
+}
+
+input {
+    margin-bottom: 1em;
+    width: 10vw;
+    border: 0.1px;
+    outline: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"]:focus {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+#send-form {
+    margin-top: 2.1em;
+    width: 10.5vw;
+    border: 2px solid #000;
+    background: #e6e6e6;
+    transition: all 0.3s ease-in-out;
+}
+
+#send-form:hover {
+    transform: scale(1.05);
+}
+
+#page1form, #page2story, #page1instruction, #page2instruction {
+    /* padding: 2vh; */
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+#page1form {
+    height: 71vh;
+    width: 27.5vw;
+    background: #eff0f1;
+    margin: 2.5vh 0 2.5vh 2.5vw;
+    padding: 2vh;
+    /* display:none; */ /* comment out */
+}
+
+#page1instruction {
+    height: 71vh;
+    width: 27.5vw;
+    background-color:#e2e2e8;
+    margin: 2.5vh 2.5vw 2.5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    padding: 2vh;
+    /* display:none; */ /* comment out */
+}
+
+
+/* Styling for the pages (page 2) */
+#page2{
+    display:flex;
+}
+
+#page2story {
+    height: 71vh;
+    width: 27.5vw;
+    background: #f0f4f8;
+    margin: 2.5vh 0 2.5vh 2.5vw;
+    padding: 2vh;
+    display:none; /* comment out */
+}
+
+#page2instruction {
+    height: 71vh;
+    width: 27.5vw;
+    background-color:#e2e2e8;
+    margin: 2.5vh 2.5vw 2.5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5em;
+    display:none; /* comment out */
+    padding: 2vh;
+}
+
+.ribbon {
+    position: absolute;
+    top: 10.25vh;
+    right: 22.5vw;
+    width: 2.5vw;
+    height: 20vh;
+    background: #d33939;
+    margin-right: 2.5vw;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+}
