@@ -2,13 +2,13 @@ input, label {
     display:block;
 }
 
-/* body {
-    background-image: url(images/background1.jpg);
-    background-position: center; 
+body {
+    background-image: url(images/madlibbackground.jpg);
+    background-position:center;
     background-repeat: no-repeat; 
     background-size: cover;
-    backdrop-filter: blur(8px); 
-} */
+    margin: 10vh;
+}
 
 /* purple cover */
 #coverborder {
@@ -16,9 +16,9 @@ input, label {
     width: 60vw;
     border-radius: 2em;
     background-color:rgb(62, 49, 73);
-    background-image: radial-gradient(rgba(255, 255, 255, 0.3) 5%, transparent 95%);
+    background-image: radial-gradient(rgba(232, 55, 36, 0.3) 5%, transparent 95%);
     margin: auto;
-    box-shadow: -20px -45px 25px rgba(5, 0, 5, 0.35),  
+    box-shadow: -25px -10px 5px rgba(5, 0, 5, 0.55),  
                 inset 5px 5px 5px rgba(255, 255, 255, 0.2); 
     font-family: "Lora", serif;
 }
@@ -120,7 +120,7 @@ input[type="text"]:focus {
 
 .ribbon {
     position: absolute;
-    top: 10.25vh;
+    top: 12.25vh;
     right: 22.5vw;
     width: 2.5vw;
     height: 20vh;
