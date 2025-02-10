@@ -14,7 +14,7 @@ body {
 #coverborder {
     height: 80vh;
     width: 60vw;
-    border-radius: 2em;
+    border-radius: 1.5em;
     background-color:rgb(62, 49, 73);
     background-image: radial-gradient(rgba(232, 55, 36, 0.3) 5%, transparent 95%);
     margin: auto;
