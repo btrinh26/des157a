@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    height: 350vh;
+}
+
+header {
+    top:0;
+    width: 40vw;
+    height: 100vh;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+    justify-self: end;
+    position: fixed;
+    right: 0;
+}
+
+section {
+    border: 1px solid black;
+}
+
+.description {
+    margin: 0;
+    height: 70vh;
+    width:45vw;
+    transition: all 1s;
+}
+
+/* for js */
+.offscreen {
+    border: 1px solid black;
+    font-size: 1em;
+}
+
+.onscreen {
+    border: 5px solid read;
+    font-size: 2em;
+}
