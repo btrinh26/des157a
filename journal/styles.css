@@ -7,6 +7,25 @@ body {
     font-size: 1em; 
 }
 
+.figurecontainer {
+    display: flex;
+    gap:2em;
+    justify-content: end;
+}
+
+figure {
+    padding: 2vh;
+    border-radius: 2em;
+    margin: 0;
+    flex:1;
+    background-color: white;
+    height: 80%;
+}
+
+figure img{
+    height: 80%;
+}
+  
 header {
     background: #4CAF50;
     color: #fff;
