@@ -1,0 +1,58 @@
+body{
+    margin:0;
+    padding:0;
+    height: 400vh;
+}
+
+#imgcontainer {
+    top:0;
+    width: 40vw;
+    height: 100vh;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    justify-self: end;
+    position: fixed;
+    right: 0;
+    display:flex;
+    justify-content: center;
+}
+
+/* image gallery */
+#img1 {
+    position: relative;
+    top:10vh;
+    left:10vw;
+    z-index: 0;
+}
+#img2 {
+    position: relative;
+    top:30vh;
+    left:0;
+    z-index: 1;
+}
+#img3 {
+    position: relative;
+    top:5vh;
+    left:-10vw;
+    z-index: 0;
+}
+
+.description {
+    margin: 0;
+    height: 70vh;
+    padding: 4vh;
+    width:45vw;
+    transition: all 1s;
+}
+
+/* for js */
+.offscreen {
+    /* border: 1px solid black; */
+    font-size: 1em;
+}
+
+.onscreen {
+    border: 5px solid read;
+    font-size: 2em;
+}
