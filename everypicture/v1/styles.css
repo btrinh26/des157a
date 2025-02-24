@@ -22,19 +22,31 @@ body{
 #img1 {
     position: relative;
     top:10vh;
-    left:10vw;
+    left:27.5vw;
     z-index: 0;
 }
 #img2 {
     position: relative;
     top:30vh;
-    left:0;
+    left:15vw;
     z-index: 1;
 }
 #img3 {
     position: relative;
+    top:10vh;
+    left: 10vw;
+    z-index: 0;
+}
+#img4 {
+    position: relative;
+    top:25vh;
+    left:-15vw;
+    z-index: 1;
+}
+#img5 {
+    position: relative;
     top:5vh;
-    left:-10vw;
+    left:-40vw;
     z-index: 0;
 }
 
