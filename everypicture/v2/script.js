@@ -14,7 +14,7 @@
     });
 
     window.addEventListener('scroll', function () {
-        pagetop = window.scrollY + 100;        
+        pagetop = window.scrollY + 150;        
 
         if (counter < sectionTops.length && pagetop > sectionTops[counter]) {
             counter++;

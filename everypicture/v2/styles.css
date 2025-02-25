@@ -6,6 +6,10 @@ body{
     background: #f3f3f3; 
 }
 
+h1{
+    padding: 5vh;
+}
+
 #imgcontainer {
     top:0;
     width: 45vw;
@@ -19,7 +23,7 @@ body{
     display:flex;
     border-radius: 25px 0 0 25px;
     justify-content: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.23);
 }
 
 /* image gallery */
@@ -27,8 +31,9 @@ body{
     position: absolute;
     top:35vh;
     left:3vw; 
-    z-index: 0;
-    opacity: 0.5;
+    z-index: 2;
+    opacity: 1;
+    transform: scale(1.5);
 }
 #img2 {
     position: absolute;
