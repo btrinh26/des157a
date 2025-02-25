@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding:0;
+    height: 450vh;
+}
+
+#imgcontainer {
+    top:0;
+    width: 40vw;
+    height: 100vh;
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    justify-self: end;
+    position: fixed;
+    right: 0;
+    display:flex;
+    justify-content: center;
+}
+
+/* image gallery */
+#img1 {
+    position: absolute;
+    top:35vh;
+    left:0; 
+    z-index: 0;
+    opacity: 0.5;
+}
+#img2 {
+    position: absolute;
+    top:35vh;
+    left:17vw;
+    z-index: 1;
+    opacity: 0.5;
+}
+#img3 {
+    position: absolute;
+    top:30vh;
+    left: 10vw;
+    z-index: 0;
+    opacity: 0.5;
+}
+#img4 {
+    position: absolute;
+    top: 0vh;
+    left:15vw;
+    z-index: -1;
+    opacity: 0.5;
+}
+#img5 {
+    position: absolute;
+    top: 7vh;
+    left:3vw;
+    z-index: -2;
+    opacity: 0.5;
+}
+
+/* image styling after changed with js */
+#imgcontainer img {
+    transition: all 0.3s ease-in-out;
+}
+
+/* .highlight {
+    transform: scale(1.5);
+    position: absolute;
+} */
+
+.description {
+    margin: 0;
+    height: 70vh;
+    padding: 4vh;
+    width:45vw;
+    transition: all 1s;
+}
+
+/* for js */
+.offscreen {
+    /* border: 1px solid black; */
+    font-size: 1em;
+}
+
+.onscreen {
+    border: 5px solid read;
+    font-size: 2em;
+}
