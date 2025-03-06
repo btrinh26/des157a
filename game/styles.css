@@ -1,0 +1,22 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f7f2ef;
+    color: #333;
+    font-size: 1em; 
+}
+
+header {
+    background: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+section{
+    margin: 2em;
+    display:flex;
+    gap: 1em;
+    justify-content: center;
+}
