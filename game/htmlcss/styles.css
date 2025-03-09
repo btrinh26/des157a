@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 1.5em;
+    background-image: url("images/157ap3.jpg");
+}
+
+h1 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+}
+
+button { 
+    padding: 1.5vh 1.5vw;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    font-size: 2vh;
+    border-radius: 1vh;
+    transition: 0.3s;
+    margin: 1vh;
+}
+
+button:hover {
+    background-color: rgb(168, 109, 0);
+}
+
+#UIS {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 3vh;
+    height: 30vh;
+}
+
+#scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 3vh;
+    border-radius: 2vh;
+    width: 30vw;
+    height: 12vh; 
+}
+
+#scores div {
+    color: white;
+    border-style: solid;
+    padding: 2vh;
+    width: 12vw;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border-radius: 1vh;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+}
+
+#p1score{
+    background: linear-gradient(#fc5d5d, #cc4444);
+}
+
+#p2score{
+    background: linear-gradient(#5d85fc, #4b44cc);
+}
+
+#control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 20vw;
+}
+
+#game {
+    background: linear-gradient(#f6f6f6, #a2a2a2);    
+    border-style: solid;
+    width: 22vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    border-radius: 2vh;
+    box-shadow: inset 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+}
+
+#game img {
+    width: 6vw;
+    height: 6vw;
+    margin: 1vw;
+}
+
+#actions {
+    background-color: silver;
+    padding: 2vh;
+    border-radius: 2vh;
+    height: 10vh; 
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#instructions {
+    width: 15vw;
+    background-color: blanchedalmond;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+#characters {
+    /* background-color: pink; */
+    width: 96vw;
+    height: 30vh;
+    padding: 2vh;
+    margin-top: 2vh;
+    margin-top: 3vh;
+}
+
+#gamecontrol {
+    background-color: aliceblue;
+    width: 40vw;
+    padding: 2vh;
+    margin:auto;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+    height: 15vh; 
+}
+
+/* Style the winning message */
+#scores h2 {
+    color: green;
+    font-size: 3vh;
+}
+
+/* styles to input with js */
+#scorefinal{
+    background: linear-gradient(#fc5d5d, #cc4444);
+    color: white;
+}

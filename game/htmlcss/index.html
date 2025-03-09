@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game project</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>PIG RACE</h1>
+
+    <div id="UIS">
+        <div id="scores"> <!-- score -->
+            <div id="p1score"><p>player 1:0m</p></div>
+            <div id="p2score"><p>player 2:0m</p></div>
+        </div> 
+        <div id="control">
+            <div id="game"></div> <!-- dice -->
+            <div id="actions"></div> <!-- roll/pass -->
+        </div>
+        <div id="instructions"></div>
+    </div>
+
+    <div id="characters">
+        <div id="p1character"><img src="images/pig.png" alt="p1" width="120" height="120"></div>
+        <div id="p1character"><img src="images/pig.png" alt="p2" width="120" height="120"></div>
+    </div> <!-- move these characters across -->
+
+    <div id="gamecontrol">
+        <h2>Start a Game</h2>
+        <button id="startgame">Randomly Pick the First Player, and Start the Game</button>
+    </div>
+</body>
+</html>
