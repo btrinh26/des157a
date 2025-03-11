@@ -1,0 +1,211 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+    text-align: center;
+    line-height: 1.5em;
+    /* background-image: url("images/157ap3.jpg"); */
+}
+ 
+h1 {
+    font-size: 4vh;
+    margin-bottom: 2vh;
+    color: white;
+}
+
+button { 
+    padding: 1.5vh 1.5vw;
+    border: none;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    font-size: 2vh;
+    border-radius: 1vh;
+    transition: 0.3s;
+    margin: 1vh;
+}
+
+button:hover {
+    background-color: rgb(168, 109, 0);
+}
+
+#UIS {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 3vh;
+    height: 30vh;
+}
+
+#scores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    padding: 3vh;
+    border-radius: 2vh;
+    width: 30vw;
+    height: 12vh; 
+}
+
+#scores div {
+    color: white;
+    border-style: solid;
+    padding: 2vh;
+    width: 12vw;
+    text-align: center;
+    font-size: 2.5vh;
+    font-weight: bold;
+    border-radius: 1vh;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+}
+
+#p1score{
+    background: linear-gradient(#fc5d5d, #cc4444);
+}
+
+#p2score{
+    background: linear-gradient(#5d85fc, #4b44cc);
+}
+
+#control {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vh;
+    width: 20vw;
+}
+
+#game {
+    background: linear-gradient(#f6f6f6, #a2a2a2);    
+    border-style: solid;
+    width: 22vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    border-radius: 2vh;
+    box-shadow: inset 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+}
+
+#game img {
+    width: 6vw;
+    height: 6vw;
+    margin: 1vw;
+}
+
+#actions {
+    background-color: silver;
+    padding: 2vh;
+    border-radius: 2vh;
+    height: 10vh; 
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#instructions {
+    width: 18vw;
+    background-color: blanchedalmond;
+    border-radius: 1vh;
+    padding: 2vh;
+}
+
+#characters {
+    /* background-color: pink; */
+    position: relative;
+    width: 96vw;
+    height: 30vh;
+    margin-top: 3vh;
+    padding: 2vh;
+}
+
+#p1character, #p2character {
+    position: absolute;
+    left:0;
+    transition: left 0.5s ease-in-out;
+}
+
+#p2character {
+    bottom:0;
+}
+
+#gamecontrol {
+    background-color: aliceblue;
+    width: 40vw;
+    padding: 2vh;
+    margin:auto;
+    margin-top: 2vh;
+    border-radius: 2vh;
+    box-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.1);
+    height: 15vh; 
+}
+
+/* win */
+#scores h2 {
+    color: #ffffff;
+    font-size: 4vh;
+}
+
+.scorefinal{
+    animation: winbox linear 4s infinite;
+}
+
+/* @keyframes winbox {
+    0%{
+        background-color:cyan;
+    }
+    25%{
+        background-color:magenta;
+    }
+    50%{
+        background-color:red;
+    }
+    75%{
+        background-color:orange;
+    }
+    100%{
+        background-color:cyan;
+    }
+} */
+
+@keyframes winbox {
+    0%{
+        background-color:cyan;
+    }
+    50%{
+        background-color:rgb(62, 44, 255);
+    }
+    100%{
+        background-color:cyan;
+    }
+}
+/* tripping */
+
+.spin1 {
+    animation: spinout1 1s linear;
+}
+
+@keyframes spinout1 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(720deg);
+    }
+}
+
+.spin2 {
+    animation: spinout2 1s linear;
+}
+
+@keyframes spinout2 {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(7200deg);
+    }
+}
