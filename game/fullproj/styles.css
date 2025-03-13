@@ -4,7 +4,9 @@ body {
     background-color: #f8f8f8;
     text-align: center;
     line-height: 1.5em;
-    /* background-image: url("images/157ap3.jpg"); */
+    background-image: url("images/157ap31.jpg");
+    background-color: rgba(177, 177, 177, 0.3);
+    /* background-blend-mode: lighten; */
 }
  
 h1 {
